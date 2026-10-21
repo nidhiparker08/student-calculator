@@ -11,4 +11,10 @@ public class App {
     public int multiply(int a, int b) {
         return a * b;
     }
+
+    public static void main(String[] args) {
+        App app = new App();
+        System.out.println("Hello from Student Calculator!");
+        System.out.println("Addition: " + app.add(2, 3));
+    }
 }
